@@ -57,6 +57,8 @@ Offline commands use Python's standard library and do not fetch URLs. Static
 HTML cannot establish rendering, indexing, real-user performance, or complete
 site coverage. JSON parsing does not establish rich-result eligibility.
 SEO-pro does not guarantee rankings, traffic, indexing, or AI citations.
+Generated image edits may change exact colors or geometry. Keep original brand
+assets and review visual drafts; native generation is not a pixel-exact editor.
 
 ChatGPT and authorized tools process inputs under their own settings and
 policies. Do not upload credentials or unrelated sensitive data. The publisher

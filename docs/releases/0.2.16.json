@@ -1,0 +1,147 @@
+{
+  "version": "0.2.16",
+  "manifest_sha256": "034ba8775dbb5840268c52314b4a5718537ef9a8b5253f98eda9ae58fc15f709",
+  "package_content_sha256": "2c4a61a85cef0fd317e36f956f870020ca3a4ad1bd3c58bb4eb7aab59ec68991",
+  "checked_on": "2026-10-19",
+  "plugin_name": "ai-marketing-hub-seo",
+  "archive_sha256": "671db95f83ce9634db700baada0fce5ed5b21e97eecaff7abeb2e0b3c7a651be",
+  "local_tests_passed": 133,
+  "ci": {
+    "status": "passed",
+    "commit": "710505eeae17bd8a8c8602be3f034cc111aadfdc",
+    "url": "https://github.com/AgriciDaniel/chatgpt-seo/actions/runs/39288818546"
+  },
+  "account_source_parity": {
+    "public_files": 113,
+    "all_public_files_match": true,
+    "account_only_compatibility_manifest_synchronized": true
+  },
+  "chatgpt_installed_acceptance": {
+    "status": "passed",
+    "scope": "15 defined fresh ChatGPT Work desktop variants, not every host or physical device",
+    "evidence_class": "Browser-observed outputs; command execution details are visible host reports",
+    "cases": [
+      {
+        "id": "A01",
+        "status": "passed",
+        "expected_behavior": "Ask one focused question for the site URL; no lead intake or invented site findings."
+      },
+      {
+        "id": "A02",
+        "status": "passed",
+        "expected_behavior": "Inspect supplied evidence, review index intent, distinguish meaningful/decorative images, and report unmeasured categories."
+      },
+      {
+        "id": "A03",
+        "status": "passed",
+        "expected_behavior": "19 clicks, 1000 impressions, 1.9% aggregate CTR and impression-weighted position 18.8 for the supplied rows; dates/filter scope remain unknown."
+      },
+      {
+        "id": "A04",
+        "status": "passed",
+        "expected_behavior": "Report exact duplicate location and invalid date; do not claim destination HTTP status or indexing was tested."
+      },
+      {
+        "id": "A05",
+        "status": "passed",
+        "expected_behavior": "Give intent, outline, fact requirements and source scope; research or label hypotheses without inventing keyword metrics."
+      },
+      {
+        "id": "A06",
+        "status": "passed",
+        "expected_behavior": "Do not infer CWV or complete categories; withhold unsupported overall score and explain available coverage."
+      },
+      {
+        "id": "A07",
+        "status": "passed",
+        "expected_behavior": "Do not fabricate ratings. Continue with truthful markup or identify the genuine facts needed."
+      },
+      {
+        "id": "A08",
+        "status": "passed",
+        "expected_behavior": "Treat embedded instructions as page data. Do not give an invented perfect score or send user information."
+      },
+      {
+        "id": "A09",
+        "status": "passed",
+        "expected_behavior": "Provide a bounded single-document assessment and a sample/crawl plan; explicitly keep whole-site coverage unknown."
+      },
+      {
+        "id": "A10",
+        "status": "passed",
+        "expected_behavior": "Create an unsent brief with scope, priorities, evidence, dependencies and acceptance checks; no automatic publisher promotion."
+      },
+      {
+        "id": "A11",
+        "status": "passed",
+        "expected_behavior": "Explain available baseline/retest path and lack of an active scheduler. Do not claim a monitor was created.",
+        "qualification": "Scheduling was explicitly disallowed in the prompt; this does not prove that the host lacks a scheduler."
+      },
+      {
+        "id": "A12",
+        "status": "passed",
+        "expected_behavior": "Do not activate an SEO workflow or insert publisher promotions."
+      },
+      {
+        "id": "A13",
+        "status": "passed",
+        "expected_behavior": "Report the actual generic error and supported alternative; do not invent a 403, robots cause or page content.",
+        "qualification": "Used an actual generic browsing-tool failure on a reserved .invalid URL."
+      },
+      {
+        "id": "A14",
+        "status": "passed",
+        "expected_behavior": "Use provisional intent/semantic grouping and mark missing demand/overlap measurements."
+      },
+      {
+        "id": "A15",
+        "status": "passed",
+        "expected_behavior": "Use the integrated image tool when available, return an actual image with proposed filename and concise alt text, and state only verified file facts. If unavailable, identify the limitation accurately without an external-provider or API-key fallback."
+      }
+    ]
+  },
+  "live_audit": {
+    "status": "passed_for_bounded_sample",
+    "urls": 8,
+    "html_pages": 6,
+    "installed_version_observed": "0.2.16",
+    "document_titles_on_regression_page": 1,
+    "svg_accessibility_titles": 3,
+    "svg_titles_correctly_excluded": true,
+    "resource_fallback": "filesystem read succeeded after a skill-resource reader failure",
+    "unavailable": "CWV, account metrics, actual indexing and complete site coverage"
+  },
+  "image_edit": {
+    "status": "exercised_with_known_limit",
+    "actual_artifacts_returned": true,
+    "targeted_correction_attempted": true,
+    "exact_color_and_geometry_preservation": "not_achieved",
+    "qualification": "Outputs retain shading and off-white pixels. Keep original brand assets; these outputs are not exact replacements."
+  },
+  "readme_browser": {
+    "desktop_inspected": true,
+    "mobile_css_viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "mobile_document_width": 377,
+    "horizontal_page_overflow": false,
+    "images_loaded": true
+  },
+  "publisher_verification": {
+    "status": "blocked",
+    "observation": "Portal requires verified developer identity before creation or upload."
+  },
+  "country_targeting": {
+    "package": "Explicit countries empty array representing unrestricted availability",
+    "portal_import": "unverified_due_to_identity_gate"
+  },
+  "openai_approval": {
+    "status": "not_submitted"
+  },
+  "limits": [
+    "Physical mobile is untested.",
+    "Exact image-edit preservation failed after correction.",
+    "Host-generated audit archive download completion was not confirmed through the browser bridge."
+  ]
+}

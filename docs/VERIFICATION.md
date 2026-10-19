@@ -26,12 +26,45 @@ backend and a real local Git repository. Two independent ZIP builds produced ide
 commands and two shared Python modules are byte-identical to the earlier public
 candidate. The rollout tests do not perform public GitHub writes.
 
-## Host and publication limits
+## Current 0.2.16 verification
+
+On 19 October 2026, 133 local tests passed. Python 3.11 with standard zlib and
+Python 3.14 with zlib-ng produced identical stored-entry ZIPs. The public
+download matches the build, checksum, and inventory. GitHub Actions passed
+the artifact-drift guard at commit `710505eeae17bd8a8c8602be3f034cc111aadfdc`.
+
+The saved private plugin contains all 113 public files unchanged, plus one
+synchronized account-only compatibility manifest. Fifteen defined fresh
+ChatGPT Work desktop variants passed. The scheduling case explicitly forbade
+automation; the unavailable-URL case used a real tool failure on a reserved
+`.invalid` URL. These results do not establish every host or tool combination.
+
+A bounded eight-URL claude-seo.md audit used six HTML analyses and correctly
+excluded three SVG accessibility titles from the document-title count. A
+supporting-resource reader failed and filesystem fallback succeeded. Native
+image creation returned an actual artifact. A reference-image edit returned
+artifacts but failed exact color and geometry preservation after a correction.
+This is a known native-generation limitation, not a passed pixel-exact edit.
+
+The current README was inspected at desktop and 390 by 844 CSS pixels. Images
+loaded, cards stacked, and the mobile document width was 377 pixels without
+horizontal page overflow. Physical mobile remains untested. Completion of the
+host-generated audit archive download was not confirmed through the browser
+bridge. Read the [sanitized acceptance record](releases/0.2.16.json).
+
+Known-credential pattern scans found no matches across 190 tracked files,
+644 unique reachable historical blobs, bounded ZIP members, and ten public
+legacy release assets containing 1,569 archive members. Active text contained
+no private local paths or signed download URLs. Pattern scans do not prove
+the absence of every possible secret. Raw chats, account identifiers, and
+private test evidence are kept outside the public repository.
+
+## Historical host evidence and publication limits
 
 Earlier private-host behavior tests and a bounded live-site audit were recorded
-for previous versions. They are not fresh acceptance of 0.2.16. This preparation
-changes publication metadata, publisher links, and documentation; the offline
-analysis implementations are retained. It does not install an account update.
+for previous versions. They are not counted as fresh acceptance of 0.2.16.
+The current release retains offline analysis implementations and adds explicit
+supporting-resource fallback guidance after a reproduced host-reader failure.
 
 Physical mobile behavior, every host/tool combination, and OpenAI review are
 not established by local tests or a mobile-sized GitHub README preview.

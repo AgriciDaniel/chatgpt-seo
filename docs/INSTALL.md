@@ -9,10 +9,11 @@ archive. Select the plugin ZIP, add it, open its settings, install it, and use
 Try in chat. Start with a public URL or a supplied draft/export and a concrete
 question. New conversations avoid relying on an older conversation's selection.
 
-This private-upload flow was exercised with the earlier private 0.2.11 package
-on 13 October 2026. The 0.2.16 candidate has not been installed into the owner's
-account as part of this repository preparation. Interface labels and availability
-can vary by account, workspace, and client.
+The existing private plugin was updated to 0.2.16 and read back on 19 October
+2026. Fresh ChatGPT Work desktop conversations exercised its installed skills,
+helpers, and native images. See the [acceptance record](releases/0.2.16.json)
+for coverage and limitations. Interface labels and availability can vary by
+account, workspace, and client.
 
 If the upload option is absent, do not paste the ZIP into an ordinary message
 and assume it installs. Check workspace restrictions or use OpenAI support.

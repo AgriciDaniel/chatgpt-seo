@@ -57,6 +57,12 @@ content without authentication, and the public ZIP matches the local archive.
 3. Test the exact saved package in the intended host. Complete OpenAI skill
    scans and authorized publisher attestations, then submit for review.
 
-The archive is a locally validated candidate, not an uploaded, submitted,
-approved, or published OpenAI release. This task does not update the owner's
-private ChatGPT installation.
+The saved private 0.2.16 plugin now has a version-bound
+[desktop acceptance record](releases/0.2.16.json). The intended organization's
+portal still requires a verified developer identity before creation or upload.
+No public submission draft, skill-scan result, or portal interpretation of
+country targeting is claimed. No legal attestations or submission were made.
+
+The archive is a tested package candidate and the owner's existing private
+ChatGPT plugin was updated. It is not an uploaded, submitted, approved, or
+published OpenAI directory release.
