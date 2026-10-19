@@ -40,10 +40,16 @@ is not a generated image. Reports must state actual coverage and unknowns.
 
 ## Public release checks
 
-The product remains pending public directory submission. The planned repository
-and policy URLs become publicly accessible only after the authorized public
-rollout. Developer verification, OpenAI skill scans, policy attestations, and
-review approval remain separate portal requirements.
+The repository rollout completed on 19 October 2026 at commit
+`52c63c96c4136727c494d104159e01914fcc03f2`, a direct descendant of the preserved
+legacy source. The repository and policy URLs are public, the old repository
+URL redirects here, and all seven reviewed issues and twenty PRs are closed
+with one migration comment each. PRs were closed without merging. Repository
+identity and public visibility were preserved.
+
+The product remains pending public directory submission. Developer verification,
+OpenAI skill scans, policy attestations, and review approval remain separate
+portal requirements.
 
 The name SEO-pro retains a generic-name review risk. A repository redesign
 does not guarantee eligibility or approval. See [submission preparation](SUBMISSION.md)
@@ -64,11 +70,13 @@ GitHub backgrounds were inspected. The documented `picture` markup follows
 the browser color scheme in the in-app browser, which can differ from a manual
 GitHub theme override. Both artwork palettes remain legible.
 
-The ZIP exists in the private repository and its authenticated GitHub API bytes
-match the local archive. The in-app browser could open its file page, but the
-private raw download returned Not Found. Browser download completion is not
-verified; use the local candidate archive for this preview. Recheck unauthenticated
-public download access after rollout.
+After rollout, an unauthenticated download of the public ZIP matched the local
+archive byte for byte. Its SHA-256 is
+`752e490c16442e2247fbcab9493813bdd5570ec3cd3fa232dbe0a784600bc8a8`.
+The README, support and policy documents, and all README SVG assets also
+matched the approved candidate. The public quest board was expanded in the
+browser and its images loaded. This resolves the earlier private raw-download
+access limitation; browser download completion is still a separate check.
 
 The final artwork pass adds three independently expandable quest cards, native
 code-block copy controls, an animated evidence outpost, and a dedicated mobile

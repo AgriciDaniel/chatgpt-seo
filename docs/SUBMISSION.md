@@ -16,8 +16,9 @@ tool when available. No hosted MCP server or paid data integration is bundled.
 Source, privacy and support: https://github.com/AgriciDaniel/chatgpt-seo.
 
 The repository replaces the unrelated publisher-site destination. The manifest
-contains the full listing and policy paths. Target public URLs are planned
-until the authorized rollout; never submit the private preview URL to OpenAI.
+contains the full listing and policy paths. The public repository, support,
+privacy, and terms URLs were verified after rollout on 19 October 2026.
+Use these public URLs for submission, rather than the private preview URL.
 
 ## Applicable requirements
 
@@ -44,14 +45,15 @@ may have additional eligibility requirements.
 
 ## Remaining release steps
 
-1. Execute the approved repository rollout; verify the product and policy
-   URLs are public and serve the correct content without authentication.
-2. Resolve developer identity verification through OpenAI. A support
+The repository rollout is complete. Product and policy URLs serve the reviewed
+content without authentication, and the public ZIP matches the local archive.
+
+1. Resolve developer identity verification through OpenAI. A support
    specialist escalation is not identity approval.
-3. Confirm country targeting and required declarations with the publisher.
+2. Confirm country targeting and required declarations with the publisher.
    Countries are omitted rather than inferred. The package has no payment
    or checkout operation.
-4. Test the exact saved package in the intended host. Complete OpenAI skill
+3. Test the exact saved package in the intended host. Complete OpenAI skill
    scans and authorized publisher attestations, then submit for review.
 
 The archive is a locally validated candidate, not an uploaded, submitted,

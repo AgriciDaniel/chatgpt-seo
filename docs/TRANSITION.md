@@ -1,13 +1,13 @@
 # Transition to the ChatGPT package
 
-The planned public rename is from the former Codex repository to
-`chatgpt-seo`. This preview contains SEO-pro, the separately built
-ChatGPT skills package. The public repository has not been changed by preparing
-this preview.
+On 19 October 2026, the former Codex repository was renamed to
+`chatgpt-seo` and updated with SEO-pro, the separately built ChatGPT skills
+package. The same public repository retains its history, stars, and watchers.
+The old repository URL redirects here.
 
-At rollout, the `codex-seo-final` tag will preserve commit
-`9a644f68d39d242a7a41a0017f7286dd0512fc3b` and its original license. The tag
-is planned, not claimed to exist already. Legacy releases and history remain.
+The [`codex-seo-final` tag](https://github.com/AgriciDaniel/chatgpt-seo/tree/codex-seo-final)
+preserves commit `9a644f68d39d242a7a41a0017f7286dd0512fc3b` and its original
+license. Legacy releases and history remain.
 The MIT license for this replacement does not apply retroactively to that code.
 
 The replacement does not include the old installers, agent profiles, hooks,
@@ -19,9 +19,9 @@ Existing users should review their installed version and the legacy uninstall
 instructions before removing it. Keep their local data and configuration backed
 up; the ChatGPT plugin does not read or import those credentials or caches.
 
-The prepared rollout closes legacy issues as not planned and PRs unmerged,
-with an explanatory comment. This is a product transition, not a claim that
-reported legacy defects were fixed.
+The rollout closed seven legacy issues as not planned and twenty PRs unmerged,
+each with an explanatory comment. This is a product transition, not a claim
+that reported legacy defects were fixed.
 
 GitHub documents repository redirects and preservation of stars and followers
 in [Renaming a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository).

@@ -1,4 +1,15 @@
-# Deferred public rollout
+# Public rollout record
+
+Completed on 19 October 2026 at commit
+`52c63c96c4136727c494d104159e01914fcc03f2`. The same public repository is now
+[`AgriciDaniel/chatgpt-seo`](https://github.com/AgriciDaniel/chatgpt-seo).
+All seven reviewed issues and twenty PRs were closed with an explanation;
+the rollback tag and public product, support, privacy, terms, and ZIP links
+were verified. OpenAI submission was not performed.
+
+The instructions below preserve the original execution and recovery procedure.
+They are not an instruction to rerun the rollout from this updated checkout.
+The original candidate and completed local journal remain the recovery record.
 
 The reviewed baseline and closing comment live here. The public destination is
 `AgriciDaniel/chatgpt-seo`. Its prepared website field is
