@@ -16,3 +16,4 @@ jobs:
       - run: python3 tools/validate_plugin.py
       - run: python3 -m unittest discover -s tests -v
       - run: python3 tools/package_plugin.py
+      - run: python3 tools/package_plugin.py --check-downloads

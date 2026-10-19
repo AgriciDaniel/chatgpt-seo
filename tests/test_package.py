@@ -10,11 +10,42 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE / 'tools'))
 
-from package_plugin import build
+from package_plugin import build, check_downloads
 from validate_plugin import DEFAULT_ROOT, validate
 
 
 class PackageTests(unittest.TestCase):
+    def test_download_check_accepts_matching_artifacts(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            result = build(destination=Path(temporary) / 'build')
+            downloads = Path(temporary) / 'downloads'
+            shutil.copytree(Path(result['archive']).parent, downloads)
+            check_downloads(result, downloads)
+
+    def test_download_check_rejects_stale_or_altered_artifacts(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            result = build(destination=Path(temporary) / 'build')
+            archive = Path(result['archive'])
+            for suffix in ('.zip', '.sha256', '.inventory.json'):
+                with self.subTest(suffix=suffix):
+                    downloads = Path(temporary) / suffix[1:]
+                    shutil.copytree(archive.parent, downloads)
+                    (downloads / (archive.stem + suffix)).write_bytes(b'stale artifact\n')
+                    with self.assertRaisesRegex(ValueError, 'differs from source build'):
+                        check_downloads(result, downloads)
+
+    def test_download_check_rejects_missing_artifact(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            result = build(destination=Path(temporary) / 'build')
+            with self.assertRaisesRegex(ValueError, 'Missing versioned download'):
+                check_downloads(result, Path(temporary) / 'absent')
+
+    def test_download_check_cannot_compare_a_build_with_itself(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            result = build(destination=Path(temporary))
+            with self.assertRaisesRegex(ValueError, 'separate build directory'):
+                check_downloads(result, temporary)
+
     def copy_package(self, temporary):
         target = Path(temporary) / 'plugin'
         shutil.copytree(DEFAULT_ROOT, target, ignore=shutil.ignore_patterns('__pycache__'))

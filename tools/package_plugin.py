@@ -48,8 +48,35 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=DEFAULT_ROOT)
     parser.add_argument('--output', type=Path)
+    parser.add_argument('--check-downloads', action='store_true',
+                        help='Fail unless the versioned download and both sidecars match this build')
     args = parser.parse_args()
-    print(json.dumps(build(args.root, args.output), indent=2))
+    if args.check_downloads and args.output and args.output.resolve() == (BASE / 'downloads').resolve():
+        parser.error('--check-downloads requires output outside the published downloads directory')
+    try:
+        result = build(args.root, args.output)
+        if args.check_downloads:
+            check_downloads(result)
+            result['downloads_match'] = True
+        print(json.dumps(result, indent=2))
+    except (OSError, ValueError) as error:
+        print(json.dumps({'valid': False, 'error': str(error)}, indent=2))
+        raise SystemExit(2)
+
+
+def check_downloads(result, directory=None):
+    """Compare the archive and sidecars without changing published artifacts."""
+    archive = Path(result['archive']).resolve()
+    downloads = Path(directory).resolve() if directory else BASE / 'downloads'
+    if downloads == archive.parent:
+        raise ValueError('Download verification requires a separate build directory')
+    stem = archive.stem
+    for name in (archive.name, stem + '.sha256', stem + '.inventory.json'):
+        expected, observed = archive.parent / name, downloads / name
+        if not observed.is_file():
+            raise ValueError('Missing versioned download: ' + name)
+        if expected.read_bytes() != observed.read_bytes():
+            raise ValueError('Versioned download differs from source build: ' + name)
 
 
 if __name__ == '__main__':

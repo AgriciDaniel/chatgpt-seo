@@ -4,9 +4,9 @@ Publisher and maintainer: [Daniel Agrici](https://github.com/AgriciDaniel).
 
 For installation questions, bugs, or privacy questions, open this repository's
 **Issues** tab and choose **New issue**. You need a GitHub account to post.
-The preview repository is private; after the planned public rollout, its support
-tracker will be available to the public. The new public address is recorded in
-the package metadata and becomes available only after that rollout.
+The public support tracker is
+[AgriciDaniel/chatgpt-seo Issues](https://github.com/AgriciDaniel/chatgpt-seo/issues).
+Support reports are public, so include only a small redacted example.
 
 Include the plugin version, ChatGPT surface, a short example prompt, what
 happened, and what you expected. Say which input or tool was unavailable.

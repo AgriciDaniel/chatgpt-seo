@@ -1,7 +1,7 @@
 # OpenAI submission preparation
 
 Prepared on 19 October 2026. Publisher: Daniel Agrici, as an individual.
-Package: `ai-marketing-hub-seo`. Display name: SEO-pro. Version: 0.2.13.
+Package: `ai-marketing-hub-seo`. Display name: SEO-pro. Version: 0.2.14.
 
 ## Description to use
 
@@ -13,6 +13,7 @@ to a fix and a verification step. Account metrics require a supplied export or
 an independently authorized read tool. Image creation uses ChatGPT's integrated
 tool when available. No hosted MCP server or paid data integration is bundled.
 
+Product: https://github.com/AgriciDaniel/chatgpt-seo/blob/main/docs/PRODUCT.md.
 Source, privacy and support: https://github.com/AgriciDaniel/chatgpt-seo.
 
 The repository replaces the unrelated publisher-site destination. The manifest
@@ -50,9 +51,9 @@ content without authentication, and the public ZIP matches the local archive.
 
 1. Resolve developer identity verification through OpenAI. A support
    specialist escalation is not identity approval.
-2. Confirm country targeting and required declarations with the publisher.
-   Countries are omitted rather than inferred. The package has no payment
-   or checkout operation.
+2. Verify that the portal imports the publisher-selected all-available-country
+   targeting from `publication.countries: []`. The package has no payment or
+   checkout operation. Complete required declarations only with the publisher.
 3. Test the exact saved package in the intended host. Complete OpenAI skill
    scans and authorized publisher attestations, then submit for review.
 

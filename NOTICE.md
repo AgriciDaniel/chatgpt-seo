@@ -12,7 +12,7 @@ trademark rights or permission to impersonate its publisher.
 
 The former Codex implementation is preserved in Git history under its original
 license. This notice does not relicense that implementation. See the
-[transition notes](docs/TRANSITION.md) for the planned legacy-source tag.
+[transition notes](docs/TRANSITION.md) for the preserved legacy-source tag.
 
 SEO-pro is an independent plugin by Daniel Agrici, not made or endorsed by OpenAI.
 

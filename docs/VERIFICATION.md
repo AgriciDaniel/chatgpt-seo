@@ -29,7 +29,7 @@ candidate. The rollout tests do not perform public GitHub writes.
 ## Host and publication limits
 
 Earlier private-host behavior tests and a bounded live-site audit were recorded
-for previous versions. They are not fresh acceptance of 0.2.13. This preparation
+for previous versions. They are not fresh acceptance of 0.2.14. This preparation
 changes publication metadata, publisher links, and documentation; the offline
 analysis implementations are retained. It does not install an account update.
 

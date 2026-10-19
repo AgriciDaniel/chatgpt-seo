@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ai-marketing-hub-seo",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "description": "Source-backed SEO workflows for audits, technical fixes, content, structured data, local search and AI-search readiness. Adapted from the public Claude SEO project.",
   "author": {
     "name": "Daniel Agrici",
@@ -48,16 +48,17 @@
         "composerIconDark": "./assets/logo.png",
         "logo": "./assets/logo.png",
         "logoDark": "./assets/logo.png",
-        "websiteURL": "https://github.com/AgriciDaniel/chatgpt-seo",
+        "websiteURL": "https://github.com/AgriciDaniel/chatgpt-seo/blob/main/docs/PRODUCT.md",
         "privacyPolicyURL": "https://github.com/AgriciDaniel/chatgpt-seo/blob/main/plugins/ai-marketing-hub-seo/legal/PRIVACY.md",
         "termsOfServiceURL": "https://github.com/AgriciDaniel/chatgpt-seo/blob/main/plugins/ai-marketing-hub-seo/legal/TERMS.md"
       },
       "onboardingSkill": "./skills/get-started/SKILL.md",
       "publication": {
-        "release_notes": "Prepare the repository-backed 0.2.13 candidate with product, support, privacy and usage pages. Retain the 27 skills, nine offline commands, source attribution and supplied PNG logo. Update publisher links and presentation colors. SEO helper behavior is unchanged. Public URL accessibility, host acceptance and directory approval are separate release checks."
+        "release_notes": "Prepare SEO-pro 0.2.14 with a neutral product page, public policies, explicit unrestricted country targeting, and versioned download integrity checks. Preserve all 27 skills, 19 references, nine offline commands, supplied branding, and starter prompts. Offline SEO helper implementations are unchanged. Host acceptance, publisher verification, and OpenAI review have separate evidence.",
+        "countries": []
       }
     }
   },
-  "homepage": "https://github.com/AgriciDaniel/chatgpt-seo",
+  "homepage": "https://github.com/AgriciDaniel/chatgpt-seo/blob/main/docs/PRODUCT.md",
   "repository": "https://github.com/AgriciDaniel/chatgpt-seo"
 }
