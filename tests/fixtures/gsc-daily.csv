@@ -1,0 +1,5 @@
+date,page,device,country,clicks,impressions,position
+2026-10-01,https://northstar.example/a,mobile,gbr,3,100,8
+2026-10-01,https://northstar.example/a,desktop,gbr,7,100,5
+2026-10-02,https://northstar.example/a,mobile,gbr,4,100,7
+2026-10-02,https://northstar.example/a,desktop,gbr,6,100,5

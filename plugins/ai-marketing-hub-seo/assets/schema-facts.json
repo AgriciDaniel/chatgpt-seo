@@ -1,0 +1,6 @@
+{
+  "example_only": true,
+  "checks": [
+    {"pointer": "/name", "expected": "Example product", "evidence": "Replace with the actual visible-page locator for the supplied product name"}
+  ]
+}

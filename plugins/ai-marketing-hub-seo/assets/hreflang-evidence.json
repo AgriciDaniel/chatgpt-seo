@@ -1,0 +1,9 @@
+{
+  "scope": "Fictional format example. Replace with supplied annotation rows and retain source locators.",
+  "annotations": [
+    {"source_url": "https://example.test/en", "language": "en", "target_url": "https://example.test/en"},
+    {"source_url": "https://example.test/en", "language": "fr", "target_url": "https://example.test/fr"},
+    {"source_url": "https://example.test/fr", "language": "en", "target_url": "https://example.test/en"},
+    {"source_url": "https://example.test/fr", "language": "fr", "target_url": "https://example.test/fr"}
+  ]
+}

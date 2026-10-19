@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI search visibility"
+  short_description: "AI search visibility with evidence and next actions"
+  default_prompt: "Use $seo-geo to help with my ai search visibility task."

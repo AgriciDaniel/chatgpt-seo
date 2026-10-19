@@ -1,0 +1,63 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-marketing-hub-seo",
+  "version": "0.2.13",
+  "description": "Source-backed SEO workflows for audits, technical fixes, content, structured data, local search and AI-search readiness. Adapted from the public Claude SEO project.",
+  "author": {
+    "name": "Daniel Agrici",
+    "url": "https://github.com/AgriciDaniel"
+  },
+  "license": "MIT AND CC-BY-4.0",
+  "keywords": [
+    "seo",
+    "technical-seo",
+    "content-brief",
+    "structured-data",
+    "local-seo",
+    "ai-search",
+    "sitemap",
+    "search-console",
+    "ecommerce"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SEO-pro",
+        "shortDescription": "Audit, prioritize, improve SEO",
+        "longDescription": "Turn a website, page, draft or SEO export into a source-backed diagnosis and practical action plan. SEO-pro covers technical audits, content briefs, structured data, sitemaps, images, local and international search, ecommerce, backlinks, topic clusters, search experience, AI-search and agent readiness, strategy and before/after checks. Create or edit requested SEO visuals with ChatGPT's integrated image generation when available. Each finding connects evidence to a fix and a verification step. The package includes nine offline helper commands, deeper decision references, reusable report/brief templates and an attributed 41-route FLOW library. Live inspection, rendering, image generation and account reads use the tools actually available in the chat. Account metrics require supplied exports or an independently authorized read tool. No external paid provider, OAuth client or hosted integration is bundled. Scores and recommendations reflect inspected evidence and stated coverage. The plugin does not guarantee rankings, traffic, rich results or AI citations. Adapted by Daniel Agrici from public Claude SEO. Source, privacy and support: https://github.com/AgriciDaniel/chatgpt-seo.",
+        "developerName": "Daniel Agrici",
+        "category": "Productivity",
+        "capabilities": [
+          "SEO audits",
+          "Content briefs",
+          "Structured data",
+          "Local SEO",
+          "AI-search readiness",
+          "SEO data analysis",
+          "SEO image generation"
+        ],
+        "supportURL": "https://github.com/AgriciDaniel/chatgpt-seo/blob/main/SUPPORT.md",
+        "defaultPrompt": [
+          "Audit my website and give me a prioritized SEO fix plan.",
+          "Create an SEO content brief for my topic and audience.",
+          "Analyze my Search Console export and find actionable opportunities."
+        ],
+        "brandColor": "#0F766E",
+        "brandColorDark": "#5EEAD4",
+        "composerIcon": "./assets/logo.png",
+        "composerIconDark": "./assets/logo.png",
+        "logo": "./assets/logo.png",
+        "logoDark": "./assets/logo.png",
+        "websiteURL": "https://github.com/AgriciDaniel/chatgpt-seo",
+        "privacyPolicyURL": "https://github.com/AgriciDaniel/chatgpt-seo/blob/main/plugins/ai-marketing-hub-seo/legal/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/AgriciDaniel/chatgpt-seo/blob/main/plugins/ai-marketing-hub-seo/legal/TERMS.md"
+      },
+      "onboardingSkill": "./skills/get-started/SKILL.md",
+      "publication": {
+        "release_notes": "Prepare the repository-backed 0.2.13 candidate with product, support, privacy and usage pages. Retain the 27 skills, nine offline commands, source attribution and supplied PNG logo. Update publisher links and presentation colors. SEO helper behavior is unchanged. Public URL accessibility, host acceptance and directory approval are separate release checks."
+      }
+    }
+  },
+  "homepage": "https://github.com/AgriciDaniel/chatgpt-seo",
+  "repository": "https://github.com/AgriciDaniel/chatgpt-seo"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maps analysis"
+  short_description: "Maps analysis with evidence and next actions"
+  default_prompt: "Use $seo-maps to help with my maps analysis task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "International SEO"
+  short_description: "International SEO with evidence and next actions"
+  default_prompt: "Use $seo-hreflang to help with my international seo task."

@@ -1,0 +1,376 @@
+{
+  "format_version": 1,
+  "license": "CC-BY-4.0",
+  "source": "https://github.com/AgriciDaniel/flow",
+  "routes": [
+    {
+      "route": "content-planning-for-topical-relevance-prompt",
+      "stage": "find",
+      "title": "Content planning for Topical Relevance Prompt",
+      "skill": "seo-cluster",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "content-prioritization-prompt",
+      "stage": "find",
+      "title": "Content Prioritization Prompt",
+      "skill": "seo-plan",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/find/content-prioritization-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "keyword-research-prompt",
+      "stage": "find",
+      "title": "Keyword research prompt",
+      "skill": "seo-cluster",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/find/keyword-research-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "keyword-variations-for-topical-relevance-prompt",
+      "stage": "find",
+      "title": "Keyword variations for topical relevance prompt",
+      "skill": "seo-cluster",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "prompt-audience-avatar",
+      "stage": "find",
+      "title": "Prompt: Audience Avatar",
+      "skill": "seo-sxo",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/find/prompt-audience-avatar.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "backlink-competition-prompt",
+      "stage": "leverage",
+      "title": "Backlink competition prompt",
+      "skill": "seo-backlinks",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/leverage/backlink-competition-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "ai-homepage-rewrite-prompt",
+      "stage": "local",
+      "title": "AI Homepage Rewrite Prompt",
+      "skill": "seo-local",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/ai-homepage-rewrite-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "claude-deep-research-prompt",
+      "stage": "local",
+      "title": "Content Research Prompt",
+      "skill": "seo-local",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/claude-deep-research-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "gbp-categories-prompt",
+      "stage": "local",
+      "title": "GBP Categories Prompt",
+      "skill": "seo-maps",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/gbp-categories-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "gbp-description-claude-prompt-1",
+      "stage": "local",
+      "title": "GBP Description Content Prompt 1",
+      "skill": "seo-maps",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-1.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "gbp-description-claude-prompt-2",
+      "stage": "local",
+      "title": "GBP Description Content Prompt 2",
+      "skill": "seo-maps",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-2.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "gbp-description-claude-prompt-3",
+      "stage": "local",
+      "title": "GBP Description Content Prompt 3",
+      "skill": "seo-maps",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-3.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "gbp-services-prompt",
+      "stage": "local",
+      "title": "GBP Services Prompt",
+      "skill": "seo-maps",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/gbp-services-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "prompt-generating-a-meta-description",
+      "stage": "local",
+      "title": "Prompt: Generating a Meta Description",
+      "skill": "seo-page",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/prompt-generating-a-meta-description.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "prompt-generating-a-title-tag",
+      "stage": "local",
+      "title": "Prompt: Generating a Title Tag",
+      "skill": "seo-page",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/prompt-generating-a-title-tag.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "prompt-rewriting-existing-homepage",
+      "stage": "local",
+      "title": "Prompt: Rewriting Existing Homepage",
+      "skill": "seo-local",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-homepage.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "prompt-rewriting-existing-service-page",
+      "stage": "local",
+      "title": "Prompt : Rewriting Existing Service Page",
+      "skill": "seo-local",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-service-page.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "ai-detector-test-follow-up-prompt",
+      "stage": "optimize",
+      "title": "AI detector test follow-up Prompt",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md",
+      "decision_note": "Review usefulness and evidence; detector results do not prove authorship."
+    },
+    {
+      "route": "ai-supporting-pages-rewrite-prompt",
+      "stage": "optimize",
+      "title": "AI Supporting Pages Rewrite Prompt",
+      "skill": "seo-programmatic",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "basic-prompt",
+      "stage": "optimize",
+      "title": "Basic Prompt",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/basic-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "blog-post-outline-prompt",
+      "stage": "optimize",
+      "title": "Blog Post Outline Prompt",
+      "skill": "seo-content-brief",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/blog-post-outline-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "blog-post-writing-prompt",
+      "stage": "optimize",
+      "title": "Blog Post Writing Prompt",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/blog-post-writing-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "claude-prompt-1",
+      "stage": "optimize",
+      "title": "Content Prompt 1",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/claude-prompt-1.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "claude-prompt-2",
+      "stage": "optimize",
+      "title": "Content Prompt 2",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/claude-prompt-2.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "ctr-audit-prompt",
+      "stage": "optimize",
+      "title": "CTR AUDIT PROMPT",
+      "skill": "seo-google",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/ctr-audit-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "follow-up-prompt-1",
+      "stage": "optimize",
+      "title": "Follow-up Prompt 1",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt-1.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "follow-up-prompt-2",
+      "stage": "optimize",
+      "title": "Follow-up Prompt 2",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt-2.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "follow-up-prompt",
+      "stage": "optimize",
+      "title": "Follow-up Prompt",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "paa-question-rewording-prompt",
+      "stage": "optimize",
+      "title": "PAA Question Rewording Prompt",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/paa-question-rewording-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "prompt-core-30-content-audit",
+      "stage": "optimize",
+      "title": "Prompt: Core 30 Content Audit",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/prompt-core-30-content-audit.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "property-content-with-authority-audit-prompt",
+      "stage": "optimize",
+      "title": "Property content with authority audit prompt",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "reddit-claude-prompt",
+      "stage": "optimize",
+      "title": "Reddit Content Prompt",
+      "skill": "seo-content",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/reddit-claude-prompt.md",
+      "decision_note": "Use inspected public audience language; no posting or outreach."
+    },
+    {
+      "route": "schema-prompt-1",
+      "stage": "optimize",
+      "title": "Schema Prompt 1",
+      "skill": "seo-schema",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/schema-prompt-1.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "step-1-the-chatgpt-discovery-prompt",
+      "stage": "optimize",
+      "title": "Step 1: The ChatGPT Discovery Prompt",
+      "skill": "seo-geo",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "step-2-the-follow-up-qualifying-prompt",
+      "stage": "optimize",
+      "title": "Step 2: The Follow-Up Qualifying Prompt",
+      "skill": "seo-geo",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "technical-audit-prompt",
+      "stage": "optimize",
+      "title": "Technical Audit Prompt",
+      "skill": "seo-technical",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/technical-audit-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "visibility-follow-up-prompt",
+      "stage": "optimize",
+      "title": "Visibility Follow Up Prompt",
+      "skill": "seo-geo",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/visibility-follow-up-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "visiblity-prompt",
+      "stage": "optimize",
+      "title": "Visiblity Prompt",
+      "skill": "seo-geo",
+      "template": "assets/flow-stage-worksheet.md",
+      "source_path": "skills/seo-flow/references/prompts/optimize/visiblity-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "bofu-page-brief-generator",
+      "stage": "win",
+      "title": "BOFU Page Brief Generator",
+      "skill": "seo-sxo",
+      "template": "assets/flow-win-bofu.md",
+      "source_path": "skills/seo-flow/references/prompts/win/bofu-page-brief-generator.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "conversion-audit-prompt",
+      "stage": "win",
+      "title": "Conversion Audit Prompt",
+      "skill": "seo-sxo",
+      "template": "assets/flow-win-conversion.md",
+      "source_path": "skills/seo-flow/references/prompts/win/conversion-audit-prompt.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    },
+    {
+      "route": "dual-surface-content-scorecard",
+      "stage": "win",
+      "title": "Dual-Surface Content Scorecard",
+      "skill": "seo-sxo",
+      "template": "assets/flow-win-dual-surface.md",
+      "source_path": "skills/seo-flow/references/prompts/win/dual-surface-content-scorecard.md",
+      "decision_note": "Apply the stage worksheet with the selected domain workflow and real inputs."
+    }
+  ]
+}

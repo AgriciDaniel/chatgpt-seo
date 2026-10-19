@@ -1,0 +1,4 @@
+interface:
+  display_name: "Topic clustering"
+  short_description: "Topic clustering with evidence and next actions"
+  default_prompt: "Use $seo-cluster to help with my topic clustering task."

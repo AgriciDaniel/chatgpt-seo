@@ -1,0 +1,283 @@
+{
+  "captured_on": "2026-10-19",
+  "account": "AgriciDaniel",
+  "repository": {
+    "default_branch": "main",
+    "description": "Codex-first SEO skill suite. 26 workflows, 24 TOML agents, DataForSEO/Gemini/Google/Firecrawl integrations, GEO/AEO, CWV, schema, backlinks, local/maps, and deterministic reports.",
+    "full_name": "AgriciDaniel/codex-seo",
+    "homepage": "skool.com/ai-marketing-hub-pro",
+    "id": 1222984521,
+    "private": false,
+    "stargazers_count": 827,
+    "subscribers_count": 10,
+    "topics": [
+      "ai-search",
+      "ai-seo",
+      "automation",
+      "codex",
+      "codex-cli",
+      "codex-skills",
+      "content-strategy",
+      "core-web-vitals",
+      "dataforseo",
+      "ecommerce-seo",
+      "generative-engine-optimization",
+      "google-search-console",
+      "local-seo",
+      "marketing-automation",
+      "mcp",
+      "open-source",
+      "python",
+      "schema-markup",
+      "seo",
+      "technical-seo"
+    ]
+  },
+  "head": "9a644f68d39d242a7a41a0017f7286dd0512fc3b",
+  "legacy_tag": "codex-seo-final",
+  "target": "AgriciDaniel/chatgpt-seo",
+  "items": [
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc8AAAABDJjNOw",
+      "number": 44,
+      "state": "open",
+      "state_reason": null,
+      "title": "chore(deps): reduce Dependabot update noise"
+    },
+    {
+      "kind": "issue",
+      "node_id": "I_kwDOSOVDSc8AAAABOpKafw",
+      "number": 43,
+      "state": "open",
+      "state_reason": null,
+      "title": "codex-seo PostToolUse hook uses ${CODEX_PLUGIN_ROOT}, which expands empty \u2014 blocks all Edit/Write in every Codex session"
+    },
+    {
+      "kind": "issue",
+      "node_id": "I_kwDOSOVDSc8AAAABMzdl2A",
+      "number": 42,
+      "state": "open",
+      "state_reason": null,
+      "title": "Feature proposal: optional GoAnyAPI SEO data integration"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc726hwS",
+      "number": 41,
+      "state": "open",
+      "state_reason": null,
+      "title": "feat: port claude-seo v2.2.4 to Codex (v2.2.4-codex.1)"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc726HFZ",
+      "number": 40,
+      "state": "open",
+      "state_reason": null,
+      "title": "fix: installer crashes with AttributeError when WeasyPrint warns to stdout"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc708jGz",
+      "number": 39,
+      "state": "open",
+      "state_reason": null,
+      "title": "feat: sync Codex SEO with Claude SEO v2.2.4"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc700Khp",
+      "number": 38,
+      "state": "open",
+      "state_reason": null,
+      "title": "fix: handle null bootstrap verification"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7z5eAC",
+      "number": 37,
+      "state": "open",
+      "state_reason": null,
+      "title": "Bump actions/setup-python from 6 to 7"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7zAxgA",
+      "number": 36,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update FAQ guidance after Google rich result removal"
+    },
+    {
+      "kind": "issue",
+      "node_id": "I_kwDOSOVDSc8AAAABIJJ8Tw",
+      "number": 35,
+      "state": "open",
+      "state_reason": null,
+      "title": "[Bug]: [ERROR] Codex SEO runtime bootstrap failed (Windows)"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7pOGwK",
+      "number": 34,
+      "state": "open",
+      "state_reason": null,
+      "title": "Bump actions/checkout from 6 to 7"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7nU1zF",
+      "number": 32,
+      "state": "open",
+      "state_reason": null,
+      "title": "fix: harden Windows bootstrap installer"
+    },
+    {
+      "kind": "issue",
+      "node_id": "I_kwDOSOVDSc8AAAABEXWt5g",
+      "number": 31,
+      "state": "open",
+      "state_reason": null,
+      "title": "Paste a URL, get codex-seo's health-score report \u2014 a link you can send to anyone who needs their site checked"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7hTTw9",
+      "number": 30,
+      "state": "open",
+      "state_reason": null,
+      "title": "fix: handle None verification in bootstrap diagnostics"
+    },
+    {
+      "kind": "issue",
+      "node_id": "I_kwDOSOVDSc8AAAABDFcBAA",
+      "number": 29,
+      "state": "open",
+      "state_reason": null,
+      "title": "Installer reports failure on macOS when WeasyPrint deps missing (false positive masks successful install)"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7acxfa",
+      "number": 28,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update requests requirement from <3.0.0,>=2.32.4 to >=2.34.0,<3.0.0"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7acxbU",
+      "number": 27,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update google-auth-oauthlib requirement from <2.0.0,>=1.3.1 to >=1.4.0,<2.0.0"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7acw82",
+      "number": 26,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update google-auth requirement from <3.0.0,>=2.20.0 to >=2.52.0,<3.0.0"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7acw3a",
+      "number": 25,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update google-auth-httplib2 requirement from <1.0.0,>=0.3.1 to >=0.4.0,<1.0.0"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7acwb5",
+      "number": 24,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update google-api-python-client requirement from <3.0.0,>=2.194.0 to >=2.196.0,<3.0.0"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7acwUp",
+      "number": 23,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update google-analytics-data requirement from <1.0.0,>=0.18.0 to >=0.22.0,<1.0.0"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7acvsW",
+      "number": 22,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update urllib3 requirement from <3.0.0,>=2.6.3 to >=2.7.0,<3.0.0"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7YIID2",
+      "number": 19,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update rapidocr-onnxruntime requirement from <2.0.0,>=1.2.3 to >=1.4.4,<2.0.0"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7YIGuT",
+      "number": 16,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update markdown requirement from <4.0,>=3.7 to >=3.10.2,<4.0"
+    },
+    {
+      "kind": "pr",
+      "node_id": "PR_kwDOSOVDSc7YIGn1",
+      "number": 15,
+      "state": "open",
+      "state_reason": null,
+      "title": "Update playwright requirement from <2.0.0,>=1.56.0 to >=1.59.0,<2.0.0"
+    },
+    {
+      "kind": "issue",
+      "node_id": "I_kwDOSOVDSc8AAAABBFOpww",
+      "number": 14,
+      "state": "open",
+      "state_reason": null,
+      "title": "Consider listing in awesome-codex-plugins"
+    },
+    {
+      "kind": "issue",
+      "node_id": "I_kwDOSOVDSc8AAAABBBFC9Q",
+      "number": 13,
+      "state": "open",
+      "state_reason": null,
+      "title": "[Bug]: [ERROR] Codex SEO runtime bootstrap failed."
+    }
+  ],
+  "desired": {
+    "description": "Turn a page, draft, or SEO export into a sourced fix plan inside ChatGPT.",
+    "homepage": "https://www.skool.com/ai-marketing-hub-pro",
+    "topics": [
+      "chatgpt",
+      "chatgpt-plugin",
+      "agent-skills",
+      "seo",
+      "technical-seo",
+      "on-page-seo",
+      "content-briefs",
+      "content-strategy",
+      "structured-data",
+      "schema-markup",
+      "xml-sitemap",
+      "local-seo",
+      "ecommerce-seo",
+      "international-seo",
+      "google-search-console",
+      "ai-search",
+      "generative-engine-optimization",
+      "search-experience-optimization",
+      "python",
+      "open-source"
+    ]
+  }
+}

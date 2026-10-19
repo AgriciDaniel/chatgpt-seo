@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local business SEO"
+  short_description: "Local business SEO with evidence and next actions"
+  default_prompt: "Use $seo-local to help with my local business seo task."

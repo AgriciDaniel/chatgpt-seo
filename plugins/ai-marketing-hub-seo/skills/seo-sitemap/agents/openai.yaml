@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sitemap review"
+  short_description: "Sitemap review with evidence and next actions"
+  default_prompt: "Use $seo-sitemap to help with my sitemap review task."

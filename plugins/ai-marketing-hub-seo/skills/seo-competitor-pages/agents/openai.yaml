@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparison pages"
+  short_description: "Comparison pages with evidence and next actions"
+  default_prompt: "Use $seo-competitor-pages to help with my comparison pages task."

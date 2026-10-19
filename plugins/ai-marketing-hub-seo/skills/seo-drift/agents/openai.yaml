@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO change comparison"
+  short_description: "SEO change comparison with evidence and next actions"
+  default_prompt: "Use $seo-drift to help with my seo change comparison task."

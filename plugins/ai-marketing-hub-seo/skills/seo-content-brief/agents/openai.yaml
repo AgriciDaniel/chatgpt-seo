@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO content brief"
+  short_description: "SEO content brief with evidence and next actions"
+  default_prompt: "Use $seo-content-brief to help with my seo content brief task."

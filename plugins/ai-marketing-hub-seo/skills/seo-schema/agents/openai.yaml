@@ -1,0 +1,4 @@
+interface:
+  display_name: "Structured data"
+  short_description: "Structured data with evidence and next actions"
+  default_prompt: "Use $seo-schema to help with my structured data task."

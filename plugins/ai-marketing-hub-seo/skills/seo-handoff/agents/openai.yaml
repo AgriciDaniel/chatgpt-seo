@@ -1,0 +1,4 @@
+interface:
+  display_name: "Implementation handoff"
+  short_description: "Implementation handoff with evidence and next actions"
+  default_prompt: "Use $seo-handoff to help with my implementation handoff task."

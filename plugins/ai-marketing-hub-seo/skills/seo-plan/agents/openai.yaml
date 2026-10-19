@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO strategy"
+  short_description: "SEO strategy with evidence and next actions"
+  default_prompt: "Use $seo-plan to help with my seo strategy task."

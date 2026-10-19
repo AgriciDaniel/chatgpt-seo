@@ -1,0 +1,4 @@
+interface:
+  display_name: "Single-page SEO review"
+  short_description: "Single-page SEO review with evidence and next actions"
+  default_prompt: "Use $seo-page to help with my single-page seo review task."

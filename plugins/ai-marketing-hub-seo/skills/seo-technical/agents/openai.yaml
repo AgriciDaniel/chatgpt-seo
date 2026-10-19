@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical SEO"
+  short_description: "Technical SEO with evidence and next actions"
+  default_prompt: "Use $seo-technical to help with my technical seo task."

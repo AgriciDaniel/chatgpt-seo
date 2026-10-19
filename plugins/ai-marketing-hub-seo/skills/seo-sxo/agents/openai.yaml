@@ -1,0 +1,4 @@
+interface:
+  display_name: "Search experience"
+  short_description: "Search experience with evidence and next actions"
+  default_prompt: "Use $seo-sxo to help with my search experience task."

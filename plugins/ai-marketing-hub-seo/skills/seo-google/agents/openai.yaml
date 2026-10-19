@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google search data"
+  short_description: "Google search data with evidence and next actions"
+  default_prompt: "Use $seo-google to help with my google search data task."

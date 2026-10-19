@@ -1,0 +1,9 @@
+{
+  "scope": "Fictional format example. Replace with explicitly supplied crawl evidence.",
+  "start_url": "https://example.test/",
+  "pages": [
+    {"url": "https://example.test/", "status": null, "indexable": null, "canonical": null, "title": "", "links": ["/guide"]},
+    {"url": "https://example.test/guide", "status": null, "indexable": null, "canonical": null, "title": "", "links": []}
+  ],
+  "sitemap_urls": []
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ecommerce SEO"
+  short_description: "Ecommerce SEO with evidence and next actions"
+  default_prompt: "Use $seo-ecommerce to help with my ecommerce seo task."

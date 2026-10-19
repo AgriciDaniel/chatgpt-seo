@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backlink analysis"
+  short_description: "Backlink analysis with evidence and next actions"
+  default_prompt: "Use $seo-backlinks to help with my backlink analysis task."

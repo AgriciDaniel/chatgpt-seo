@@ -1,49 +1,21 @@
-# Contributing to Codex SEO
+# Contributing
 
-Thanks for contributing.
+Keep changes focused on the skills-only ChatGPT package. Preserve its identity,
+source attribution, and the existing evidence and authorization boundaries.
+Do not add hooks, provider dependencies, telemetry, or hosted integrations as
+part of a documentation change.
 
-## Ground Rules
-
-- Keep changes focused and minimal.
-- Preserve project lineage and attribution to the upstream project.
-- Do not remove legal/disclosure language without maintainer approval.
-- Use clear commit messages.
-
-## Local Setup
+Python 3.10 or newer is sufficient for validation. From the repository root:
 
 ```bash
-gh repo clone AgriciDaniel/codex-seo
-cd codex-seo
-python -m pip install -r requirements.txt
+python3 tools/validate_plugin.py
+python3 -m unittest discover -s tests -v
+python3 tools/package_plugin.py
 ```
 
-If you are working from a public fork, a normal `git clone` of that fork is fine. Keep credentials, `.env` files, `.mcp.json`, `output/`, and `.seo-cache/` out of commits.
+The ZIP has `plugin.json` at its root. Development tools and repository files
+remain outside it. Keep secrets and private data out of code, test fixtures,
+issues, and generated archives. Use synthetic examples for regression tests.
 
-## Validation Before PR
-
-Run the same baseline checks used by CI:
-
-```bash
-bash -n install.sh
-bash -n uninstall.sh
-bash -n hooks/pre-commit-seo-check.sh
-python -m pytest tests/
-python -m compileall -q scripts hooks
-```
-
-## Pull Request Checklist
-
-- Explain the problem and the fix.
-- Note any behavior changes.
-- Update docs when commands or workflows change.
-- Avoid unrelated refactors.
-
-## Code Style
-
-- Python: follow PEP 8 conventions. If you have [Ruff](https://docs.astral.sh/ruff/) installed, run `ruff check .` before submitting.
-- Shell scripts: use `shellcheck` where possible.
-- Keep formatting consistent with surrounding code.
-
-## Security Fixes
-
-For vulnerabilities, follow `SECURITY.md` instead of opening a detailed public issue.
+Describe the user-visible change and the checks you ran. For privacy and
+security concerns, follow [Support](SUPPORT.md).

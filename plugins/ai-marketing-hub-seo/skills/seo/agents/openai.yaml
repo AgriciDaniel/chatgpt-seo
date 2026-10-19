@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO workspace"
+  short_description: "SEO workspace with evidence and next actions"
+  default_prompt: "Use $seo to help with my seo workspace task."

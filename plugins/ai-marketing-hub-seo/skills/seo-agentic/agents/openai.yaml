@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent readiness"
+  short_description: "Agent readiness with evidence and next actions"
+  default_prompt: "Use $seo-agentic to help with my agent readiness task."

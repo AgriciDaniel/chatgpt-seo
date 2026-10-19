@@ -1,0 +1,18 @@
+name: Package checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - run: python3 tools/validate_plugin.py
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 tools/package_plugin.py

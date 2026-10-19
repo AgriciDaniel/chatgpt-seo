@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content quality"
+  short_description: "Content quality with evidence and next actions"
+  default_prompt: "Use $seo-content to help with my content quality task."

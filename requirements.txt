@@ -1,9 +1,0 @@
-# Codex SEO - Full Python Dependencies
-# The installer bootstraps core requirements first, then installs optional
-# capability groups best-effort so wheel lag does not block core workflows.
-
--r requirements-core.txt
--r requirements-visual.txt
--r requirements-report.txt
--r requirements-google.txt
--r requirements-ocr.txt

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image SEO"
+  short_description: "Image SEO with evidence and next actions"
+  default_prompt: "Use $seo-images to help with my image seo task."

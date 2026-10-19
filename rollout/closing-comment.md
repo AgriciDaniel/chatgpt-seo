@@ -1,0 +1,1 @@
+Thank you for the report or contribution. This repository is moving to the ChatGPT SEO plugin, and work on the previous Codex implementation is no longer planned here. Its final source is preserved under the `codex-seo-final` tag. I'm closing this item as not planned for the replacement package.

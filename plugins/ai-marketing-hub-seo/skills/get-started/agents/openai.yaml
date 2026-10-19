@@ -1,0 +1,4 @@
+interface:
+  display_name: "Get started"
+  short_description: "Get started with evidence and next actions"
+  default_prompt: "Use $get-started to help with my get started task."

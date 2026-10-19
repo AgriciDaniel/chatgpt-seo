@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO image generation"
+  short_description: "Create SEO visuals with ChatGPT images"
+  default_prompt: "Use $seo-image-gen to create a blog hero for my topic."

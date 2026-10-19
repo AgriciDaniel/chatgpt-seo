@@ -1,0 +1,4 @@
+interface:
+  display_name: "FLOW framework"
+  short_description: "FLOW framework with evidence and next actions"
+  default_prompt: "Use $seo-flow to help with my flow framework task."

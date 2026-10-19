@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website SEO audit"
+  short_description: "Website SEO audit with evidence and next actions"
+  default_prompt: "Use $seo-audit to help with my website seo audit task."

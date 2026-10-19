@@ -1,71 +1,10 @@
-# Generated output
-output/
-qa/
-seo-*-output*/
-seo-*-output-*/
-.planning/
-*.tmp
-*.bak
-*.swp
-tmp-programmatic-qc.csv
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
-*.sublime-*
-
-# Python
 __pycache__/
-*.pyc
-*.pyo
-.pytest_cache/
-.mypy_cache/
-*.egg-info/
-dist/
-build/
-.eggs/
-
-# Virtual environments
-venv/
+*.py[cod]
 .venv/
-env/
-.env/
-
-# Secrets and credentials
-.mcp.json
-.claude/settings.local.json
+node_modules/
+/dist/
+/.rollout-state.json
+/.rollout-work/
 .env
 .env.*
-*.env
-**/.env
-**/client_secret*.json
-**/service_account*.json
-**/oauth-token.json
-**/.google-token.json
-
-# Node (if any)
-node_modules/
-
-# Logs
-*.log
-
-# Archives (don't commit zips)
-*.zip
-*.tar.gz
-
-# Screenshots (generated during analysis)
-screenshots/*
-!screenshots/
-!screenshots/cover-image.webp
-
-# Temporary analysis files
-*-AUDIT-REPORT.md
-*-ACTION-PLAN.md
-.seo-cache/
-.paperclip-*
-.tmp-*/
-.codex-exec-last.txt
+.DS_Store
