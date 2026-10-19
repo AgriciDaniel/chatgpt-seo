@@ -81,7 +81,8 @@
     "Selected crawl, annotations, binary-header and fact-ledger inputs gain offline helpers",
     "Repository-backed public candidate 0.2.13: publisher links, policy documentation and presentation metadata; offline helper implementations unchanged",
     "Public repository destination updated to chatgpt-seo at publisher request; package identity and display name preserved",
-    "Version 0.2.14 uses a neutral product page and explicit unrestricted country targeting; SEO helper and skill behavior remains unchanged."
+    "Version 0.2.14 uses a neutral product page and explicit unrestricted country targeting; SEO helper and skill behavior remains unchanged.",
+    "Version 0.2.15 adds supporting-resource access fallback after a reproduced ChatGPT skill-reader failure; offline helpers are unchanged."
   ],
   "excluded_source_workflow_count": 1,
   "source_scope_note": "25 of the 26 public source workflows are retained. One provider-specific workflow is deliberately excluded per user instruction. Native host tools and selected-file evidence replace source-specific runtimes and providers. This package contains no private or Pro source material; its user-selected branding asset is supplied separately.",

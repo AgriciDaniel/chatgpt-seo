@@ -12,6 +12,15 @@ A dataset, template, representative pages or proposed URL family.
 
 ## Evidence and runtime
 
+If a skill-resource reader fails to open a linked supporting file, try the
+available file or execution tool using the installed plugin root returned by
+the host or resolved from this skill's location. Do not hardcode a home folder,
+version, or working directory. Distinguish a failed reader call from an absent
+file, and files actually attempted from files not attempted. Report a resource
+as unavailable only after the supported access paths have failed. If no file
+or execution access is available, continue within the evidence you can read
+and state that limit.
+
 Read [the operating contract](../../references/operating-contract.md) when this
 workflow is selected. Use [runtime and data paths](../../references/runtime-and-data.md)
 when choosing a tool or handling missing data. Recheck relevant

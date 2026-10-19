@@ -52,7 +52,7 @@ SEO-pro by Daniel Agrici brings focused SEO workflows to the conversation: inspe
 
 ## Quick start
 
-1. [Download SEO-pro 0.2.14](downloads/ai-marketing-hub-seo-0.2.14.zip), then choose **View raw** on GitHub's file page. Use this plugin ZIP, not GitHub's source-code ZIP.
+1. [Download SEO-pro 0.2.15](downloads/ai-marketing-hub-seo-0.2.15.zip), then choose **View raw** on GitHub's file page. Use this plugin ZIP, not GitHub's source-code ZIP.
 2. In ChatGPT, open **Plugins**, choose **Add**, then **Upload plugin archive**. Upload the ZIP and choose **Add plugin**.
 3. Open the plugin's settings and choose **Install plugin**.
 4. Choose **Try in chat**, or start a new chat with **SEO-pro** selected.
