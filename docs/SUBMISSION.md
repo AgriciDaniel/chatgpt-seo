@@ -1,7 +1,7 @@
 # OpenAI submission preparation
 
 Prepared on 19 October 2026. Publisher: Daniel Agrici, as an individual.
-Package: `ai-marketing-hub-seo`. Display name: SEO-pro. Version: 0.2.15.
+Package: `ai-marketing-hub-seo`. Display name: SEO-pro. Version: 0.2.16.
 
 ## Description to use
 

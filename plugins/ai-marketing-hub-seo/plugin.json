@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ai-marketing-hub-seo",
-  "version": "0.2.15",
+  "version": "0.2.16",
   "description": "Source-backed SEO workflows for audits, technical fixes, content, structured data, local search and AI-search readiness. Adapted from the public Claude SEO project.",
   "author": {
     "name": "Daniel Agrici",
@@ -54,7 +54,7 @@
       },
       "onboardingSkill": "./skills/get-started/SKILL.md",
       "publication": {
-        "release_notes": "Fix supporting-resource access fallback observed in fresh ChatGPT tests: use available file or execution access after a skill-resource reader fails, distinguish files not attempted from unavailable files, and retain accurate limitations when no access exists. Preserve the 27 workflows, 19 references, nine offline commands, supplied branding, neutral product page, public policies, and unrestricted country targeting. Offline helper implementations are unchanged.",
+        "release_notes": "Harden supporting-resource access after fresh ChatGPT tests and distribute a ZIP reproducible across Python and zlib build environments. Skills use available file or execution tools after a skill-resource reader fails and distinguish unattempted files from unavailable files. Preserve the 27 workflows, 19 references, nine offline commands, branding, neutral product page, public policies, and unrestricted country targeting. Offline helper implementations are unchanged.",
         "countries": []
       }
     }

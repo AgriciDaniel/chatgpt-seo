@@ -10,7 +10,7 @@ Try in chat. Start with a public URL or a supplied draft/export and a concrete
 question. New conversations avoid relying on an older conversation's selection.
 
 This private-upload flow was exercised with the earlier private 0.2.11 package
-on 13 October 2026. The 0.2.15 candidate has not been installed into the owner's
+on 13 October 2026. The 0.2.16 candidate has not been installed into the owner's
 account as part of this repository preparation. Interface labels and availability
 can vary by account, workspace, and client.
 

@@ -23,15 +23,16 @@ def build(root=DEFAULT_ROOT, destination=None):
     archive = output / (name + '.zip')
     temporary = output / (name + '.zip.tmp')
     entries = []
-    with zipfile.ZipFile(temporary, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as handle:
+    # Stored entries avoid zlib implementation differences across build hosts.
+    with zipfile.ZipFile(temporary, 'w', compression=zipfile.ZIP_STORED) as handle:
         for path in package_files(root):
             relative = path.relative_to(root).as_posix()
             data = path.read_bytes()
             info = zipfile.ZipInfo(relative, (1980, 1, 1, 0, 0, 0))
             info.create_system = 3
             info.external_attr = 0o100644 << 16
-            info.compress_type = zipfile.ZIP_DEFLATED
-            handle.writestr(info, data, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
+            info.compress_type = zipfile.ZIP_STORED
+            handle.writestr(info, data, compress_type=zipfile.ZIP_STORED)
             entries.append({'path': relative, 'bytes': len(data),
                             'sha256': hashlib.sha256(data).hexdigest()})
     temporary.replace(archive)
